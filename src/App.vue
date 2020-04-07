@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <u-linear-layout>
+      <u-text size="small">小号文本</u-text>
+      <u-text size="normal">正常文本</u-text>
+      <u-text size="large">大号文本</u-text>
+      <u-text size="huge">特大号文本</u-text>
+      <u-text style="font-size: 26px;">自定义大小</u-text>
+    </u-linear-layout>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
