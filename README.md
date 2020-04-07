@@ -2,7 +2,11 @@
 
 vusion组件库按需引入示例。
 
-注意：Webpack 配置需要完全跟随 Vusion 体系配置
+注意：Webpack 配置需要完全跟随 Vusion 体系配置。
+
+``` bash
+npm install && npm run serve
+```
 
 ## 1. 安装两个必要的 loader
 
